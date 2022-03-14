@@ -12,7 +12,7 @@ function Searchbar() {
     navigate(`/search?q=${term}`);
   };
   return (
-    <div clasName="searchbar">
+    <div className="searchbar">
       <form onSubmit={handleSubmit}>
         <label htmlFor="search">Search:</label>
         <input
